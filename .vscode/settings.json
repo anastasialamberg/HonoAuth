@@ -1,12 +1,5 @@
 {
-  "editor.formatOnSave": true,
   "deno.enable": true,
-
-  "cSpell.words": [
-    "Hono",
-    "openapi"
-  ]
- 
-
-  
+  "editor.defaultFormatter": "denoland.vscode-deno",
+  "editor.formatOnSave": true
 }
