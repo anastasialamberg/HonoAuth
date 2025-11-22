@@ -18,7 +18,8 @@
     "drizzle-seed": "npm:drizzle-seed@0.3.1",
     "better-auth": "npm:better-auth@^1.4.1",
     "prisma": "npm:prisma@5.22.0",
-    "zod": "npm:zod@4.1.12"
+    "zod": "npm:zod@4.1.12",
+    "postgres": "https://deno.land/x/postgresjs/mod.js"
   },
   "compilerOptions": {
     "jsx": "react-jsx",
