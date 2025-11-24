@@ -4,15 +4,19 @@
     "db:up": "docker compose up -d",
     "db:generate:migration": "drizzle-kit generate",
     "db:migrate": "drizzle-kit migrate",
-    "db:studio": "drizzle-kit studio"
+    "db:studio": "drizzle-kit studio",
+    "open-auth-docs": "open-cli http://localhost:8000/api/auth/reference"
   },
   "imports": {
     "@better-auth/cli": "npm:@better-auth/cli@^1.4.1",
     "@prisma/client": "npm:@prisma/client@5.22.0",
     "@prisma/engines": "npm:@prisma/engines@5.22.0",
     "@std/assert": "jsr:@std/assert@1",
+    "form-data": "npm:form-data@^4.0.5",
     "hono": "npm:hono@4.10.6",
     "drizzle-orm": "npm:drizzle-orm@^0.44.7",
+    "mailgun.js": "npm:mailgun.js@^12.1.1",
+    "open-cli": "npm:open-cli@^8.0.0",
     "pg": "npm:pg@^8.16.3",
     "drizzle-kit": "npm:drizzle-kit@^0.31.7",
     "drizzle-seed": "npm:drizzle-seed@0.3.1",

@@ -1,7 +1,5 @@
-//import "jsr:@std/dotenv/load";
 import { Hono } from "hono";
 import { auth } from "./src/lib/auth.ts";
-
 
 const app = new Hono();
 
