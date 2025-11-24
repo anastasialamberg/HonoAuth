@@ -1,5 +1,5 @@
 import { defineConfig } from "drizzle-kit";
-import env from "./src/env.ts";
+import { env } from "better-auth";
 
 export default defineConfig({
   out: "./src/db/migrations",
