@@ -5,7 +5,10 @@
     "db:generate:migration": "drizzle-kit generate",
     "db:migrate": "drizzle-kit migrate",
     "db:studio": "drizzle-kit studio",
-    "open-auth-docs": "open-cli http://localhost:8000/api/auth/reference"
+    "open-auth-docs": "open-cli http://localhost:8000/api/auth/reference",
+    "lint": "deno lint",
+    "format": "deno fmt",
+    "typecheck": "deno check **/*.ts"
   },
   "imports": {
     "@better-auth/cli": "npm:@better-auth/cli@^1.4.1",

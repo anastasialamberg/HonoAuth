@@ -6,8 +6,8 @@ export type Todo = InferSelectModel<typeof todos>;
 export type NewTodo = InferInsertModel<typeof todos>;
 
 export type HonoEnv = {
-    Variables: {
-        user: typeof auth.$Infer.Session.user | null;
-        session: typeof auth.$Infer.Session.session | null;
-    }
-}
+  Variables: {
+    user: typeof auth.$Infer.Session.user | null;
+    session: typeof auth.$Infer.Session.session | null;
+  };
+};

@@ -3,7 +3,6 @@ import { authMiddleware } from "../middlewares/auth.middleware.ts";
 import { getTodosByUserId, insertTodo } from "../db/queries.ts";
 import type { HonoEnv } from "../lib/types.ts";
 import { createTodoValidator } from "../validators/create-todo.validator.ts";
-import { auth } from "../lib/auth.ts";
 
 export const todos = new Hono<HonoEnv>();
 
