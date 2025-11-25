@@ -1,6 +1,6 @@
 {
   "tasks": {
-    "dev": "deno serve --watch --env-file=.env main.ts",
+    "dev": "deno serve --watch --allow-all --env-file=.env main.ts",
     "db:up": "docker compose up -d",
     "db:generate:migration": "drizzle-kit generate",
     "db:migrate": "drizzle-kit migrate",
