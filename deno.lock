@@ -7,6 +7,7 @@
     "npm:@better-auth/cli@1.4.1": "1.4.1_@babel+core@7.28.5_@better-auth+utils@0.3.0_prisma@5.22.0_@prisma+client@5.22.0__prisma@5.22.0_@types+pg@8.15.6_better-sqlite3@12.4.6_pg@8.16.3",
     "npm:@better-auth/cli@^1.4.1": "1.4.1_@babel+core@7.28.5_@better-auth+utils@0.3.0_prisma@5.22.0_@prisma+client@5.22.0__prisma@5.22.0_@types+pg@8.15.6_better-sqlite3@12.4.6_pg@8.16.3",
     "npm:@better-auth/cli@latest": "1.4.1_@babel+core@7.28.5_@better-auth+utils@0.3.0_prisma@5.22.0_@prisma+client@5.22.0__prisma@5.22.0_@types+pg@8.15.6_better-sqlite3@12.4.6_pg@8.16.3",
+    "npm:@hono/zod-validator@~0.7.5": "0.7.5_hono@4.10.6_zod@4.1.13",
     "npm:@prisma/client@5.22.0": "5.22.0_prisma@5.22.0",
     "npm:@prisma/engines@5.22.0": "5.22.0",
     "npm:better-auth@^1.4.1": "1.4.1_@better-auth+utils@0.3.0_@better-fetch+fetch@1.1.18_better-call@1.1.0_jose@6.1.2_kysely@0.28.8_nanostores@1.1.0_@better-auth+core@1.4.1__@better-auth+utils@0.3.0__@better-fetch+fetch@1.1.18__better-call@1.1.0__jose@6.1.2__kysely@0.28.8__nanostores@1.1.0",
@@ -19,7 +20,7 @@
     "npm:open-cli@8": "8.0.0",
     "npm:pg@^8.16.3": "8.16.3",
     "npm:prisma@5.22.0": "5.22.0",
-    "npm:zod@4.1.12": "4.1.12"
+    "npm:zod@^4.1.13": "4.1.13"
   },
   "jsr": {
     "@std/assert@1.0.16": {
@@ -650,6 +651,13 @@
       "integrity": "sha512-alJC0uCZpTFrSL0CCDjcgleBXPnCrEAhTBILpeAp7M/OFgoqtAetfBzX0xM00MUsVVPpVjlPuMbREqnZCXaTnA==",
       "os": ["win32"],
       "cpu": ["x64"]
+    },
+    "@hono/zod-validator@0.7.5_hono@4.10.6_zod@4.1.13": {
+      "integrity": "sha512-n4l4hutkfYU07PzRUHBOVzUEn38VSfrh+UVE5d0w4lyfWDOEhzxIupqo5iakRiJL44c3vTuFJBvcmUl8b9agIA==",
+      "dependencies": [
+        "hono",
+        "zod"
+      ]
     },
     "@jridgewell/gen-mapping@0.3.13": {
       "integrity": "sha512-2kkt/7niJ6MgEPxF0bYdQ6etZaA+fQvDcLKckhy1yIQOzaoKjBBjSj63/aLVjYE3qhRt5dvM+uUyfCg6UKCBbA==",
@@ -1770,8 +1778,8 @@
     "yoctocolors@2.1.2": {
       "integrity": "sha512-CzhO+pFNo8ajLM2d2IW/R93ipy99LWjtwblvC1RsoSUMZgyLbYFr221TnSNT7GjGdYui6P459mw9JH/g/zW2ug=="
     },
-    "zod@4.1.12": {
-      "integrity": "sha512-JInaHOamG8pt5+Ey8kGmdcAcg3OL9reK8ltczgHTAwNhMys/6ThXHityHxVV2p3fkw/c+MAvBHFVYHFZDmjMCQ=="
+    "zod@4.1.13": {
+      "integrity": "sha512-AvvthqfqrAhNH9dnfmrfKzX5upOdjUVJYFqNSlkmGf64gRaTzlPwz99IHYnVs28qYAybvAlBV+H7pn0saFY4Ig=="
     }
   },
   "redirects": {
@@ -2067,6 +2075,7 @@
     "dependencies": [
       "jsr:@std/assert@1",
       "npm:@better-auth/cli@^1.4.1",
+      "npm:@hono/zod-validator@~0.7.5",
       "npm:@prisma/client@5.22.0",
       "npm:@prisma/engines@5.22.0",
       "npm:better-auth@^1.4.1",
@@ -2079,7 +2088,7 @@
       "npm:open-cli@8",
       "npm:pg@^8.16.3",
       "npm:prisma@5.22.0",
-      "npm:zod@4.1.12"
+      "npm:zod@^4.1.13"
     ]
   }
 }

@@ -1,1 +1,21 @@
-http://localhost:8000
+POST http://localhost:8000/api/todos
+Content-Type: application/json
+
+{
+    "title": "Test",
+    "description": "at 3pm"
+    
+}
+
+###
+GET http://localhost:8000/api/todos
+
+###
+
+POST http://localhost:8000/api/auth/sign-in/email
+Content-Type: application/json
+
+{
+    "email": "anastasia.lamberg@gmail.com",
+    "password": "password123"
+}

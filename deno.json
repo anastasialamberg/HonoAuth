@@ -9,6 +9,7 @@
   },
   "imports": {
     "@better-auth/cli": "npm:@better-auth/cli@^1.4.1",
+    "@hono/zod-validator": "npm:@hono/zod-validator@^0.7.5",
     "@prisma/client": "npm:@prisma/client@5.22.0",
     "@prisma/engines": "npm:@prisma/engines@5.22.0",
     "@std/assert": "jsr:@std/assert@1",
@@ -22,7 +23,7 @@
     "drizzle-seed": "npm:drizzle-seed@0.3.1",
     "better-auth": "npm:better-auth@^1.4.1",
     "prisma": "npm:prisma@5.22.0",
-    "zod": "npm:zod@4.1.12",
+    "zod": "npm:zod@^4.1.13",
     "postgres": "https://deno.land/x/postgresjs/mod.js"
   },
   "compilerOptions": {
